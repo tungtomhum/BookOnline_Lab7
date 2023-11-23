@@ -1,0 +1,44 @@
+﻿
+@model SachOnline.Models.BINHLUAN
+
+@{
+    ViewBag.Title = "Contact";
+    Layout = "~/Views/Shared/_ LayoutUser.cshtml";
+}
+
+
+<div>
+    <h2 class="text-center p-5">LIÊN HỆ VỚI CHÚNG TÔI</h2>
+</div>
+
+@using (Html.BeginForm("Contact", "SachOnline", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <div class="pb20">
+        <div class="p-2"><b>ĐỂ LẠI BÌNH LUẬN:</b></div>
+        <div class="mt5 mb5" style="border-top: 3px solid #009bd5;"></div>
+        <div class="p-5">Địa chỉ email của bạn sẽ không được công bố. Các trường bắt buộc được đánh dấu <font color="#FF0000">(*)</font></div>
+        <div class="p-3">
+            Bình Luận:
+            <font color="#FF0000">(*)</font>
+        </div>
+        <textarea style="height:120px; width: 100%;" name="binhluan.NoiDungBinhLuan" required="" aria-required="true" placeholder="Để lại bình luận của bạn..." ></textarea>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="p-3">Họ và tên: <font color="#FF0000">(*)</font></div>
+                <input type="text" name="binhluan.TenKH" id="comment_name" required="" aria-required="true" placeholder="Tên của bạn..." style="width: 100%; height:36px;" value="">
+            </div>
+            <div class="col-md-6">
+                <div class="p-3">Email: <font color="#FF0000">(*)</font></div>
+                <input type="email" name="binhluan.EmailKH" id="comment_email" required="" aria-required="true" placeholder="Địa chỉ email..." style="width: 100%; height:36px;" value="">
+            </div>
+        </div>
+
+        <button class="mt-5" style="cursor:pointer;float:right;padding:20px 0px;border:none; height:100%; width:100%; background:#009bd5; color:#fff; font-size:18px; font-weight:600; border-radius: 5px;" type="submit">ĐĂNG BÌNH LUẬN</button>    
+    </div>
+}
+
+<div class="clear"></div>
+<hr>
+
+

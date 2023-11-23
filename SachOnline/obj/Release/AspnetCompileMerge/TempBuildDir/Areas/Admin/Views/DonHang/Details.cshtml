@@ -1,0 +1,46 @@
+﻿@model SachOnline.Models.DONDATHANG
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<style type="text/css">
+    img {
+        width: 250px;
+        margin-bottom: 20px;
+    }
+
+    .abc p {
+        padding-top: 20px;
+    }
+</style>
+
+<div class="book-detail">
+    <h2 style="text-align:center;">CHI TIẾT ĐƠN ĐẶT HÀNG</h2>
+    <hr />
+    <div class="col-md-12 abc">
+        <p>
+            <b>Mã đơn hàng:</b> @Html.DisplayFor(model => model.MaDonHang)
+        </p>
+        <p>
+            <b>Mã khách hàng:</b> @Html.DisplayFor(model => model.MaKH)
+        </p>
+        <p>
+            <b>Ngày đặt hàng:</b> @Html.FormatValue(@Model.NgayDat, "{0:dd/MM/yyyy}")
+        </p>
+        <p>
+            <b>Ngày giao hàng:</b> @Html.FormatValue(@Model.NgayGiao, "{0:dd/MM/yyyy}")
+        </p>
+        <p>
+            <b>Tình trạng thanh toán:</b> @Html.DisplayFor(model => model.DaThanhToan)
+        </p>
+        <p>
+            <b>Tình trạng giao hàng:</b> @Html.DisplayFor(model => model.TinhTrangGiaoHang)
+        </p>
+        <div class="actions">
+            @Html.ActionLink("Sửa", "Edit", new { id = Model.MaDonHang }) |
+            @Html.ActionLink("VỀ TRANG QUẢN LÝ SÁCH", "Index")
+        </div>
+    </div>
+</div>

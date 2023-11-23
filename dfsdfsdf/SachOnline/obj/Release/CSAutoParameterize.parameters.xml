@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="SachOnlineConnectionString-Web.config Connection String" description="SachOnlineConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=LAPTOP-SD6JFUCG\MSSQLSERVER01;Initial Catalog=SachOnline;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\CODE\\Lab6\\SachOnline\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SachOnlineConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="SachOnlineConnectionString1-Web.config Connection String" description="SachOnlineConnectionString1 Connection String used in web.config by the application to access the database." defaultValue="Data Source=LAPTOP-SD6JFUCG\MSSQLSERVER01;Initial Catalog=SachOnline;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\CODE\\Lab6\\SachOnline\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SachOnlineConnectionString1']/@connectionString" />
+  </parameter>
+  <parameter name="SachOnlineConnectionString2-Web.config Connection String" description="SachOnlineConnectionString2 Connection String used in web.config by the application to access the database." defaultValue="Data Source=LAPTOP-SD6JFUCG\MSSQLSERVER01;Initial Catalog=SachOnline;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\CODE\\Lab6\\SachOnline\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SachOnlineConnectionString2']/@connectionString" />
+  </parameter>
+  <parameter name="SachOnlineConnectionString3-Web.config Connection String" description="SachOnlineConnectionString3 Connection String used in web.config by the application to access the database." defaultValue="Data Source=LAPTOP-SD6JFUCG\MSSQLSERVER01;Initial Catalog=SachOnline;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\CODE\\Lab6\\SachOnline\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SachOnlineConnectionString3']/@connectionString" />
+  </parameter>
+  <parameter name="SachOnlineConnectionString4-Web.config Connection String" description="SachOnlineConnectionString4 Connection String used in web.config by the application to access the database." defaultValue="Data Source=LAPTOP-SD6JFUCG\MSSQLSERVER01;Initial Catalog=SachOnline;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\CODE\\Lab6\\SachOnline\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SachOnlineConnectionString4']/@connectionString" />
+  </parameter>
+  <parameter name="SachOnlineConnectionString5-Web.config Connection String" description="SachOnlineConnectionString5 Connection String used in web.config by the application to access the database." defaultValue="Data Source=LAPTOP-SD6JFUCG\MSSQLSERVER01;Initial Catalog=SachOnline;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\CODE\\Lab6\\SachOnline\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SachOnlineConnectionString5']/@connectionString" />
+  </parameter>
+  <parameter name="SachOnlineConnectionString6-Web.config Connection String" description="SachOnlineConnectionString6 Connection String used in web.config by the application to access the database." defaultValue="Data Source=LAPTOP-SD6JFUCG\MSSQLSERVER01;Initial Catalog=SachOnline;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\CODE\\Lab6\\SachOnline\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SachOnlineConnectionString6']/@connectionString" />
+  </parameter>
+  <parameter name="SachOnlineConnectionString7-Web.config Connection String" description="SachOnlineConnectionString7 Connection String used in web.config by the application to access the database." defaultValue="Data Source=LAPTOP-SD6JFUCG\MSSQLSERVER01;Initial Catalog=SachOnline;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\CODE\\Lab6\\SachOnline\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SachOnlineConnectionString7']/@connectionString" />
+  </parameter>
+  <parameter name="SachOnlineConnectionString8-Web.config Connection String" description="SachOnlineConnectionString8 Connection String used in web.config by the application to access the database." defaultValue="Data Source=LAPTOP-SD6JFUCG\MSSQLSERVER01;Initial Catalog=SachOnline;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\CODE\\Lab6\\SachOnline\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SachOnlineConnectionString8']/@connectionString" />
+  </parameter>
+  <parameter name="SachOnlineConnectionString9-Web.config Connection String" description="SachOnlineConnectionString9 Connection String used in web.config by the application to access the database." defaultValue="Data Source=LAPTOP-SD6JFUCG\MSSQLSERVER01;Initial Catalog=SachOnline;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\CODE\\Lab6\\SachOnline\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SachOnlineConnectionString9']/@connectionString" />
+  </parameter>
+</parameters>
